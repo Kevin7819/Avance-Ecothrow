@@ -18,30 +18,53 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.13659563713443093,
+    "zoomFactor": 1.067643839732842,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
-  "instances": [
+  "variables": [
     {
-      "angle": 10,
-      "customSize": true,
-      "depth": 108,
-      "height": 306,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Grass_Platform",
-      "persistentUuid": "54313b10-cb1a-46ed-912d-f9b5c7de440c",
-      "width": 314,
-      "x": -127,
-      "y": -120,
-      "z": -40,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
+      "name": "Score",
+      "type": "number",
+      "value": 0
     },
+    {
+      "name": "GameTime",
+      "type": "string",
+      "value": "\"GameTime\""
+    },
+    {
+      "name": "FailsCount",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "FailsTotal",
+      "type": "number",
+      "value": 5
+    },
+    {
+      "name": "TrashCount",
+      "type": "number",
+      "value": 5
+    },
+    {
+      "name": "FailsAudioNumber",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "name": "SuccessAudioNumber",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "name": "TotalTime",
+      "type": "number",
+      "value": 120
+    }
+  ],
+  "instances": [
     {
       "angle": 20,
       "customSize": true,
@@ -54,42 +77,6 @@
       "width": 311,
       "x": 226,
       "y": -230,
-      "z": -40,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 40,
-      "customSize": true,
-      "depth": 107,
-      "height": 303,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Grass_Platform",
-      "persistentUuid": "0c5b5c24-1dfa-4b9c-ac71-bc1711eb0366",
-      "width": 311,
-      "x": 597,
-      "y": 194,
-      "z": -40,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 108,
-      "height": 306,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Grass_Platform",
-      "persistentUuid": "54db7a42-5387-4260-85dd-6e3488f5ae16",
-      "width": 314,
-      "x": 834,
-      "y": -117,
       "z": -40,
       "zOrder": 1,
       "numberProperties": [],
@@ -115,60 +102,6 @@
       "initialVariables": []
     },
     {
-      "angle": 34,
-      "customSize": true,
-      "depth": 107,
-      "height": 303,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Grass_Platform",
-      "persistentUuid": "002cefef-0ea9-45d6-ba7d-08bfa9b7909c",
-      "width": 311,
-      "x": 231,
-      "y": 191,
-      "z": -40,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 272,
-      "customSize": true,
-      "depth": 6,
-      "height": 127,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Path",
-      "persistentUuid": "aa0a2c55-8bef-4aae-a8ea-7ae8f032233b",
-      "width": 129,
-      "x": 532,
-      "y": 189,
-      "z": 13,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 24,
-      "customSize": true,
-      "depth": 6,
-      "height": 127,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Path",
-      "persistentUuid": "94df497d-6a40-4c3b-b860-954a486b0719",
-      "width": 129,
-      "x": 198,
-      "y": 200,
-      "z": 14,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 226,
       "customSize": true,
       "depth": 6,
@@ -180,7 +113,7 @@
       "width": 129,
       "x": 889,
       "y": -63,
-      "z": 12,
+      "z": -30,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -198,7 +131,7 @@
       "width": 129,
       "x": -132,
       "y": -125,
-      "z": 12,
+      "z": -30,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -252,26 +185,8 @@
       "width": 129,
       "x": 1059,
       "y": 199,
-      "z": 14,
+      "z": -30,
       "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 10,
-      "customSize": true,
-      "depth": 162,
-      "height": 462,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Grass_Platform",
-      "persistentUuid": "84cc9f5b-0461-4497-ad85-b78e3cd27862",
-      "width": 472,
-      "x": -96,
-      "y": 554,
-      "z": -40,
-      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -295,24 +210,6 @@
       "initialVariables": []
     },
     {
-      "angle": 10,
-      "customSize": true,
-      "depth": 206,
-      "height": 585,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Grass_Platform",
-      "persistentUuid": "11e1d943-0d64-4e54-9521-3ea8fd019d15",
-      "width": 598,
-      "x": 841,
-      "y": 702,
-      "z": -80,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 56,
       "customSize": true,
       "depth": 6,
@@ -326,24 +223,6 @@
       "y": -181,
       "z": 14,
       "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 107,
-      "height": 303,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Grass_Platform",
-      "persistentUuid": "a1714038-1966-4937-8955-72141f237ef8",
-      "width": 311,
-      "x": 1048,
-      "y": 192,
-      "z": -40,
-      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -387,34 +266,38 @@
       "initialVariables": []
     },
     {
-      "angle": 157,
+      "angle": -51,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
       "layer": "",
       "name": "trash_Can_blue",
       "persistentUuid": "f37b4db1-281a-4020-b41d-748f92222de9",
+      "rotationX": -90,
+      "rotationY": 90,
       "width": 0,
-      "x": -116,
-      "y": -96,
-      "z": 46,
+      "x": -106,
+      "y": -148,
+      "z": 10,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 206,
+      "angle": 40,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
       "layer": "",
       "name": "trash_Can_black",
       "persistentUuid": "b0065ba1-c08c-4297-8860-fd55547faf9a",
+      "rotationX": -90,
+      "rotationY": 90,
       "width": 0,
-      "x": 818,
-      "y": -98,
-      "z": 46,
+      "x": 913,
+      "y": -47,
+      "z": 10,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -477,17 +360,18 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 50,
+      "height": 50,
       "keepRatio": true,
       "layer": "",
       "name": "Trash_Bag",
       "persistentUuid": "90270bfb-3077-4932-9a61-dd5b43109857",
       "rotationX": -90,
-      "width": 0,
-      "x": -69,
-      "y": 548,
-      "z": 30,
+      "width": 50,
+      "x": 552,
+      "y": 573,
+      "z": -35,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -495,35 +379,18 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Trash_Bag",
-      "persistentUuid": "e85d8048-5c58-493a-acd9-c2daa5c49d3f",
-      "rotationX": -90,
-      "width": 0,
-      "x": -790,
-      "y": 26,
-      "z": -40,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 50,
+      "height": 50,
       "keepRatio": true,
       "layer": "",
       "name": "Trash_Bag",
       "persistentUuid": "29642793-17b2-4566-859e-b5462d2d8373",
       "rotationX": -90,
-      "width": 0,
-      "x": -826,
-      "y": 123,
-      "z": -40,
+      "width": 50,
+      "x": 34,
+      "y": 561,
+      "z": -35,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -531,35 +398,18 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Trash_Bag",
-      "persistentUuid": "098d80f3-b0f1-410d-873d-7f6c021aa3b4",
-      "rotationX": -90,
-      "width": 0,
-      "x": -386,
-      "y": 197,
-      "z": -40,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 50,
+      "height": 50,
       "keepRatio": true,
       "layer": "",
       "name": "Trash_Bag",
       "persistentUuid": "e33f17fc-8c4e-4a1e-b939-458a51678e51",
       "rotationX": -90,
-      "width": 0,
-      "x": 1036,
-      "y": 1232,
-      "z": -40,
+      "width": 50,
+      "x": 584,
+      "y": 1435,
+      "z": -35,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -567,17 +417,18 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 50,
+      "height": 50,
       "keepRatio": true,
       "layer": "",
       "name": "Trash_Bag",
       "persistentUuid": "3a1d53ad-39aa-4eaa-8bce-e8b892efee58",
       "rotationX": -90,
-      "width": 0,
-      "x": 404,
-      "y": 52,
-      "z": -40,
+      "width": 50,
+      "x": 364,
+      "y": 72,
+      "z": -35,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -585,53 +436,18 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 50,
+      "height": 50,
       "keepRatio": true,
       "layer": "",
       "name": "Trash_Bag",
       "persistentUuid": "1e049e49-d710-4504-aeea-09552495f913",
       "rotationX": -90,
-      "width": 0,
-      "x": 1197,
-      "y": -61,
-      "z": -40,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Trash_Bag",
-      "persistentUuid": "6ba55a84-34ad-4df0-bb27-dcb8bc0d9cec",
-      "rotationX": -90,
-      "width": 0,
-      "x": 619,
-      "y": -416,
-      "z": -40,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Trash_Bag",
-      "persistentUuid": "fc208386-9620-4244-9bf1-d7bc30a48d46",
-      "rotationX": -90,
-      "width": 0,
-      "x": 1095,
-      "y": -157,
-      "z": -40,
+      "width": 50,
+      "x": 714,
+      "y": 171,
+      "z": -35,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -799,7 +615,7 @@
       "width": 95,
       "x": -24,
       "y": 406,
-      "z": 50,
+      "z": -30,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -854,8 +670,8 @@
       "persistentUuid": "edd4cd4c-44af-4797-b9f0-ad41dba425af",
       "rotationX": -90,
       "width": 646,
-      "x": -1125,
-      "y": -246,
+      "x": -1179,
+      "y": -268,
       "z": 700,
       "zOrder": 15,
       "numberProperties": [],
@@ -1063,7 +879,7 @@
       "width": 79,
       "x": 814,
       "y": 558,
-      "z": 28,
+      "z": -30,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -1118,9 +934,9 @@
       "persistentUuid": "6c5ddf9d-7899-42d1-98e0-4984f5f87e11",
       "rotationX": -90,
       "width": 641,
-      "x": -769,
-      "y": -901,
-      "z": 990,
+      "x": -810,
+      "y": -1241,
+      "z": 700,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -1279,71 +1095,19 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Trash_Bag",
-      "persistentUuid": "fbb10c40-7003-46de-8e85-abbb0d144793",
-      "rotationX": -90,
-      "width": 0,
-      "x": -149,
-      "y": -375,
-      "z": -40,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Trash_Bag",
-      "persistentUuid": "76effef8-b581-445e-a6f3-b2b816ab76ea",
-      "rotationX": -90,
-      "width": 0,
-      "x": -224,
-      "y": 1292,
-      "z": -40,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Trash_Bag",
-      "persistentUuid": "4379e019-abbb-4192-bbfa-6d04a619a79e",
-      "rotationX": -90,
-      "width": 0,
-      "x": 644,
-      "y": 1411,
-      "z": -40,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 226,
+      "angle": 50,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
       "layer": "",
       "name": "trash_Can_grey",
       "persistentUuid": "b4431beb-dd7a-4721-b3a1-bea1a83248ff",
+      "rotationX": -90,
+      "rotationY": 90,
       "width": 0,
-      "x": 995,
-      "y": 201,
-      "z": 46,
+      "x": 1059,
+      "y": 236,
+      "z": 10,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -1489,6 +1253,149 @@
       "y": 922,
       "z": -34,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "HUD",
+      "name": "ScoreText",
+      "persistentUuid": "502cbabd-1ebe-412e-9cba-c3da32707d5f",
+      "width": 400,
+      "x": 10,
+      "y": 10,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "HUD",
+      "name": "FailsText",
+      "persistentUuid": "723f6b90-6760-4970-9f58-37501dd7b39a",
+      "width": 400,
+      "x": 10,
+      "y": 110,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "HUD",
+      "name": "TimeText",
+      "persistentUuid": "7db08542-e595-416b-9745-46ba77cb99c8",
+      "width": 400,
+      "x": 10,
+      "y": 60,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 10,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Bottle",
+      "persistentUuid": "0c2c2e49-1c53-4c85-8a7f-b24616c43470",
+      "rotationX": -90,
+      "width": 10,
+      "x": 121,
+      "y": 333,
+      "z": -40,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 10,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Bottle",
+      "persistentUuid": "dde3f5a0-05b5-4c6b-88a4-826faa9389b4",
+      "rotationX": -90,
+      "width": 10,
+      "x": 668,
+      "y": 373,
+      "z": -40,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 10,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Bottle",
+      "persistentUuid": "67115561-c809-4e8e-a83c-4751c3aa144b",
+      "rotationX": -90,
+      "width": 10,
+      "x": 422,
+      "y": 270,
+      "z": -40,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 30,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Cardbox",
+      "persistentUuid": "1eb1da9d-31c7-48f1-9690-1fbbcda7d549",
+      "rotationX": -90,
+      "width": 60,
+      "x": 270,
+      "y": 448,
+      "z": -40,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 30,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Cardbox",
+      "persistentUuid": "b5ad1f6c-f06e-4144-b2cf-ff3ebbbe06f9",
+      "rotationX": -90,
+      "width": 60,
+      "x": 475,
+      "y": 421,
+      "z": -40,
+      "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1714,14 +1621,14 @@
           "name": "Physics3D",
           "type": "Physics3D::Physics3DBehavior",
           "object3D": "Object3D",
-          "bodyType": "Static",
+          "bodyType": "Dynamic",
           "bullet": false,
           "fixedRotation": false,
-          "shape": "Sphere",
+          "shape": "Box",
           "shapeOrientation": "Z",
-          "shapeDimensionA": 0,
-          "shapeDimensionB": 0,
-          "shapeDimensionC": 0,
+          "shapeDimensionA": 50,
+          "shapeDimensionB": 50,
+          "shapeDimensionC": 50,
           "shapeOffsetX": 0,
           "shapeOffsetY": 0,
           "shapeOffsetZ": 0,
@@ -1729,11 +1636,11 @@
           "massCenterOffsetY": 0,
           "massCenterOffsetZ": 0,
           "massOverride": 0,
-          "density": 1,
-          "friction": 0.3,
-          "restitution": 0.1,
+          "density": 50,
+          "friction": 1,
+          "restitution": 0,
           "linearDamping": 0.1,
-          "angularDamping": 0.1,
+          "angularDamping": 60,
           "gravityScale": 1,
           "layers": 17,
           "masks": 17
@@ -2222,6 +2129,132 @@
         "width": 100,
         "animations": []
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ScoreText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Puntuación: ",
+      "font": "3f8b9fdbb33ea7b099f39802c5d019a94895075380de98a6d93c677da94e111a_DelaGothicOne-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Puntuación: ",
+        "font": "3f8b9fdbb33ea7b099f39802c5d019a94895075380de98a6d93c677da94e111a_DelaGothicOne-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "FailsText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Fallos: ",
+      "font": "3f8b9fdbb33ea7b099f39802c5d019a94895075380de98a6d93c677da94e111a_DelaGothicOne-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Fallos: ",
+        "font": "3f8b9fdbb33ea7b099f39802c5d019a94895075380de98a6d93c677da94e111a_DelaGothicOne-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "TimeText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Tiempo: ",
+      "font": "3f8b9fdbb33ea7b099f39802c5d019a94895075380de98a6d93c677da94e111a_DelaGothicOne-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Tiempo: ",
+        "font": "3f8b9fdbb33ea7b099f39802c5d019a94895075380de98a6d93c677da94e111a_DelaGothicOne-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2268,10 +2301,2561 @@
       },
       {
         "objectName": "Damaged_Grave"
+      },
+      {
+        "objectName": "ScoreText"
+      },
+      {
+        "objectName": "FailsText"
+      },
+      {
+        "objectName": "TimeText"
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Escena",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Inicialización del Contador de Puntaje, Desacierto y Temporizador"
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "ScoreText",
+                "Text",
+                "=",
+                "\"Puntuación: \" + Score + \"/\" + TrashCount"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TimeText",
+                "Text",
+                "=",
+                "\"Tiempo: \" + ToString(round(TimerElapsedTime(GameTime))) + \" / \" + TotalTime"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "FailsText",
+                "Text",
+                "=",
+                "\"Fallos: \" + FailsCount + \"/\" + FailsTotal"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "FailsAudioNumber",
+                    "<",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FailsAudioNumber",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "FailsAudioNumber",
+                    ">",
+                    "7"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FailsAudioNumber",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "SuccessAudioNumber",
+                    "<",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "SuccessAudioNumber",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "SuccessAudioNumber",
+                    ">",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "SuccessAudioNumber",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Asignación de valores iniciales al comenzar la escena"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "GameTime"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "FailsCount",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "TrashCount",
+                "=",
+                "SceneInstancesCount(Trash_Bag) + SceneInstancesCount(Bottle) + SceneInstancesCount(Cardbox)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "FailsAudioNumber",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SuccessAudioNumber",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "ScoreText",
+                "Text",
+                "=",
+                "\"Puntuación: \" + Score + \"/\" + TrashCount"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TimeText",
+                "Text",
+                "=",
+                "\"Tiempo: \" + ToString(round(TimerElapsedTime(GameTime))) + \" / \" + TotalTime"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "FailsText",
+                "Text",
+                "=",
+                "\"Fallos: \" + FailsCount + \"/\" + FailsTotal"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Colisiones",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Condición para Ganar (Pasa a la siguiente Escena)"
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics3D::Collision"
+              },
+              "parameters": [
+                "Trash_Bag",
+                "Physics3D",
+                "trash_Can_black",
+                "Physics3D",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Trash_Bag",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SuccessAudioNumber",
+                "=",
+                "RandomInRange(1, 4)"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "SuccessAudioNumber",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Acierto 1 - Crack.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "SuccessAudioNumber",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Acierto 2 - Carajillo.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "SuccessAudioNumber",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Acierto 3 - La muni.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "SuccessAudioNumber",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Acierto 4 - Digale.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics3D::Collision"
+              },
+              "parameters": [
+                "Bottle",
+                "Physics3D",
+                "trash_Can_blue",
+                "Physics3D",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bottle",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SuccessAudioNumber",
+                "=",
+                "RandomInRange(1, 4)"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "SuccessAudioNumber",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Acierto 1 - Crack.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "SuccessAudioNumber",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Acierto 2 - Carajillo.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "SuccessAudioNumber",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Acierto 3 - La muni.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "SuccessAudioNumber",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Acierto 4 - Digale.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics3D::Collision"
+              },
+              "parameters": [
+                "Cardbox",
+                "Physics3D",
+                "trash_Can_grey",
+                "Physics3D",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Cardbox",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SuccessAudioNumber",
+                "=",
+                "RandomInRange(1, 4)"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "SuccessAudioNumber",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Acierto 1 - Crack.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "SuccessAudioNumber",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Acierto 2 - Carajillo.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "SuccessAudioNumber",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Acierto 3 - La muni.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "SuccessAudioNumber",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Acierto 4 - Digale.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "TrashCount"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Street\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Condiciones para Perder"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "GameTime",
+                ">",
+                "TotalTime"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Lose\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "FailsCount",
+                "=",
+                "FailsTotal"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Lose\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "TrashBag",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics3D::Collision"
+                  },
+                  "parameters": [
+                    "Trash_Bag",
+                    "Physics3D",
+                    "trash_Can_blue",
+                    "Physics3D",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FailsAudioNumber",
+                    "=",
+                    "RandomInRange(1, 7)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FailsCount",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "Trash_Bag",
+                    "=",
+                    "RandomInRange(0,780)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Trash_Bag",
+                    "=",
+                    "RandomInRange(-817, 1474)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 1 - Pero deay.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 2 - Mejor retírese.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 3 - Sias tonto.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "4"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 4 - Mi abuelo.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 5 - Fucking Basura.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 6 - Weon.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "7"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 7 - Su prima.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics3D::Collision"
+                  },
+                  "parameters": [
+                    "Trash_Bag",
+                    "Physics3D",
+                    "trash_Can_grey",
+                    "Physics3D",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FailsAudioNumber",
+                    "=",
+                    "RandomInRange(1, 7)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FailsCount",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "Trash_Bag",
+                    "=",
+                    "RandomInRange(0,780)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Trash_Bag",
+                    "=",
+                    "RandomInRange(-817, 1474)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 1 - Pero deay.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 2 - Mejor retírese.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 3 - Sias tonto.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "4"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 4 - Mi abuelo.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 5 - Fucking Basura.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 6 - Weon.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "7"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 7 - Su prima.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Bottle",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics3D::Collision"
+                  },
+                  "parameters": [
+                    "Bottle",
+                    "Physics3D",
+                    "trash_Can_black",
+                    "Physics3D",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FailsAudioNumber",
+                    "=",
+                    "RandomInRange(1, 7)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FailsCount",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "Bottle",
+                    "=",
+                    "RandomInRange(0,780)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Bottle",
+                    "=",
+                    "RandomInRange(-817, 1474)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 1 - Pero deay.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 2 - Mejor retírese.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 3 - Sias tonto.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "4"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 4 - Mi abuelo.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 5 - Fucking Basura.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 6 - Weon.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "7"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 7 - Su prima.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics3D::Collision"
+                  },
+                  "parameters": [
+                    "Bottle",
+                    "Physics3D",
+                    "trash_Can_grey",
+                    "Physics3D",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FailsAudioNumber",
+                    "=",
+                    "RandomInRange(1, 7)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FailsCount",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "Bottle",
+                    "=",
+                    "RandomInRange(0,780)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Bottle",
+                    "=",
+                    "RandomInRange(-817, 1474)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 1 - Pero deay.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 2 - Mejor retírese.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 3 - Sias tonto.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "4"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 4 - Mi abuelo.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 5 - Fucking Basura.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 6 - Weon.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "7"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 7 - Su prima.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Cardbox",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics3D::Collision"
+                  },
+                  "parameters": [
+                    "Cardbox",
+                    "Physics3D",
+                    "trash_Can_black",
+                    "Physics3D",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FailsAudioNumber",
+                    "=",
+                    "RandomInRange(1, 7)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FailsCount",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "Cardbox",
+                    "=",
+                    "RandomInRange(0,780)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Cardbox",
+                    "=",
+                    "RandomInRange(-817, 1474)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 1 - Pero deay.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 2 - Mejor retírese.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 3 - Sias tonto.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "4"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 4 - Mi abuelo.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 5 - Fucking Basura.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 6 - Weon.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "7"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 7 - Su prima.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics3D::Collision"
+                  },
+                  "parameters": [
+                    "Cardbox",
+                    "Physics3D",
+                    "trash_Can_blue",
+                    "Physics3D",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FailsAudioNumber",
+                    "=",
+                    "RandomInRange(1, 7)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FailsCount",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "Cardbox",
+                    "=",
+                    "RandomInRange(0,780)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Cardbox",
+                    "=",
+                    "RandomInRange(-817, 1474)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 1 - Pero deay.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 2 - Mejor retírese.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 3 - Sias tonto.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "4"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 4 - Mi abuelo.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 5 - Fucking Basura.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 6 - Weon.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "FailsAudioNumber",
+                        "=",
+                        "7"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Fallo 7 - Su prima.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "parameters": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -2316,12 +4900,49 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "HUD",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
     },
     {
       "name": "FirstPersonMultitouchMapper",
@@ -2338,6 +4959,10 @@
     {
       "name": "Object3D",
       "type": "Scene3D::Base3DBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
     },
     {
       "name": "Physics3D",
@@ -2362,6 +4987,10 @@
     {
       "name": "Shooter3DKeyboardMapper",
       "type": "PhysicsCharacter3DKeyMapper::Shooter3DKeyboardMapper"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }
