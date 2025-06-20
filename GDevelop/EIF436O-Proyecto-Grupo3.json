@@ -938,6 +938,138 @@
         "kind": "model3D",
         "metadata": "",
         "name": "botellaglb.glb",
+        "file": "assets/DelaGothicOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "3f8b9fdbb33ea7b099f39802c5d019a94895075380de98a6d93c677da94e111a_DelaGothicOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Japanese/3f8b9fdbb33ea7b099f39802c5d019a94895075380de98a6d93c677da94e111a_DelaGothicOne-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Sound 5.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "cdd8a49617b7ccbb02414699dd034b19fcced68760cdd9e90028473394c9e8ca_Sound 5.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Sound/cdd8a49617b7ccbb02414699dd034b19fcced68760cdd9e90028473394c9e8ca_Sound 5.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "Acierto 1 - Crack.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Acierto 1 - Crack.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Acierto 2 - Carajillo.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Acierto 2 - Carajillo.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Acierto 3 - La muni.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Acierto 3 - La muni.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Acierto 4 - Digale.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Acierto 4 - Digale.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Fallo 1 - Pero deay.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Fallo 1 - Pero deay.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Fallo 2 - Mejor retírese.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Fallo 2 - Mejor retírese.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Fallo 3 - Sias tonto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Fallo 3 - Sias tonto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Fallo 4 - Mi abuelo.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Fallo 4 - Mi abuelo.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Fallo 5 - Fucking Basura.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Fallo 5 - Fucking Basura.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Fallo 6 - Weon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Fallo 6 - Weon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Fallo 7 - Su prima.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Fallo 7 - Su prima.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],
@@ -1539,10 +1671,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/city"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/street2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
