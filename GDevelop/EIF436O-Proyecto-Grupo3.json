@@ -1213,9 +1213,9 @@
           "density": 1,
           "friction": 0.3,
           "restitution": 0.1,
-          "linearDamping": 0.1,
+          "linearDamping": 0.3,
           "angularDamping": 0.1,
-          "gravityScale": 1,
+          "gravityScale": 0.1,
           "layers": 17,
           "masks": 17
         }
