@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.14596305460322845,
+    "zoomFactor": 0.2928917592889628,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -75,8 +75,8 @@
       "name": "Piso",
       "persistentUuid": "4192c02c-a3e2-43a3-84c1-966d7a969a93",
       "width": 1855,
-      "x": -372,
-      "y": -522,
+      "x": -385,
+      "y": -511,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -100,62 +100,6 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": true,
-      "depth": 98,
-      "height": 102,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bolsa_basura",
-      "persistentUuid": "88944ee4-3da0-4315-a31c-6b22c552ac65",
-      "rotationX": -90,
-      "width": 91,
-      "x": 1139,
-      "y": 774,
-      "z": 160,
-      "zOrder": 303,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bolsa_basura",
-      "persistentUuid": "ec380fcb-e44a-454a-9e0f-8d7c30dc2b39",
-      "rotationX": -90,
-      "width": 0,
-      "x": 181,
-      "y": 684,
-      "z": 160,
-      "zOrder": 303,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 96,
-      "height": 135,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bolsa_basura",
-      "persistentUuid": "5e39d658-e994-4283-a713-de421e4d1a0e",
-      "rotationX": -90,
-      "width": 88,
-      "x": 934,
-      "y": 798,
-      "z": 160,
-      "zOrder": 303,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 224,
       "customSize": true,
       "depth": 14,
@@ -170,44 +114,6 @@
       "y": 472,
       "z": 120,
       "zOrder": 304,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 98,
-      "height": 118,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bolsa_basura",
-      "persistentUuid": "6b661653-3f81-49dd-abb7-eec7b6ff812b",
-      "rotationX": -90,
-      "width": 123,
-      "x": 1342,
-      "y": 336,
-      "z": 160,
-      "zOrder": 303,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 98,
-      "height": 118,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bolsa_basura",
-      "persistentUuid": "39a0b00b-df72-4aa3-8d90-d4a09ce27dbc",
-      "rotationX": -90,
-      "width": 98,
-      "x": 722,
-      "y": 901,
-      "z": 160,
-      "zOrder": 303,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -351,215 +257,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 98,
-      "height": 102,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bolsa_basura",
-      "persistentUuid": "793ebd01-e62c-41b3-95c9-223a8d76f5d2",
-      "rotationX": -90,
-      "width": 91,
-      "x": 1218,
-      "y": 635,
-      "z": 160,
-      "zOrder": 303,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 98,
-      "height": 102,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bolsa_basura",
-      "persistentUuid": "bd4ec043-f7f7-49ec-9316-67389cf0223b",
-      "rotationX": -90,
-      "width": 91,
-      "x": 1287,
-      "y": 13,
-      "z": 160,
-      "zOrder": 303,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 98,
-      "height": 102,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bolsa_basura",
-      "persistentUuid": "f85e06db-e48d-4bed-90b0-de2cd5bf2fd3",
-      "rotationX": -90,
-      "width": 91,
-      "x": 1177,
-      "y": -353,
-      "z": 160,
-      "zOrder": 303,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 98,
-      "height": 102,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bolsa_basura",
-      "persistentUuid": "976b95eb-12a0-4b88-a2b3-4fe1a4f3dce4",
-      "rotationX": -90,
-      "width": 91,
-      "x": 461,
-      "y": -346,
-      "z": 160,
-      "zOrder": 303,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 98,
-      "height": 102,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bolsa_basura",
-      "persistentUuid": "e9db96e0-a35b-4255-9381-b540eb2d85df",
-      "rotationX": -90,
-      "width": 91,
-      "x": 121,
-      "y": -267,
-      "z": 160,
-      "zOrder": 303,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 98,
-      "height": 102,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bolsa_basura",
-      "persistentUuid": "cfcdb11a-a452-44de-9974-e666a2dd7aa7",
-      "rotationX": -90,
-      "width": 91,
-      "x": -117,
-      "y": -147,
-      "z": 160,
-      "zOrder": 303,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 98,
-      "height": 102,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bolsa_basura",
-      "persistentUuid": "4ea8ec80-dcd5-4d12-bd72-eb0639e30d58",
-      "rotationX": -90,
-      "width": 109,
-      "x": -98,
-      "y": -137,
-      "z": 160,
-      "zOrder": 303,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 98,
-      "height": 150,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bolsa_basura",
-      "persistentUuid": "8dafb853-9534-4742-822e-28d2a8466dd1",
-      "rotationX": -90,
-      "width": 114,
-      "x": -229,
-      "y": 254,
-      "z": 160,
-      "zOrder": 303,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 98,
-      "height": 185,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bolsa_basura",
-      "persistentUuid": "c698532a-60cd-46b9-94c9-42dd971f694f",
-      "rotationX": -90,
-      "width": 139,
-      "x": -90,
-      "y": 561,
-      "z": 160,
-      "zOrder": 303,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 98,
-      "height": 218,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bolsa_basura",
-      "persistentUuid": "e3ac51b4-9471-4a2b-b5f3-96ffe15c4a7b",
-      "rotationX": -90,
-      "width": 149,
-      "x": 199,
-      "y": 885,
-      "z": 160,
-      "zOrder": 303,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 98,
-      "height": 218,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bolsa_basura",
-      "persistentUuid": "aa6ff98b-0f8d-4ea2-b64f-377a3cebf308",
-      "rotationX": -90,
-      "width": 124,
-      "x": 509,
-      "y": 836,
-      "z": 160,
-      "zOrder": 303,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 100,
       "height": 1527,
       "keepRatio": true,
@@ -639,10 +336,236 @@
       "name": "Camara",
       "persistentUuid": "8338c6bf-e250-48ff-8e24-cc2be8134957",
       "width": 140,
-      "x": 373,
-      "y": 206,
+      "x": 424,
+      "y": 250,
       "z": 170,
       "zOrder": 319,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "HUD",
+      "name": "ScoreText",
+      "persistentUuid": "e0771092-0dfc-4b9b-a70f-9faa710b3470",
+      "width": 400,
+      "x": 10,
+      "y": 10,
+      "zOrder": 320,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "HUD",
+      "name": "TimeText",
+      "persistentUuid": "b6350f7f-e351-4594-90e0-9ee2537a899d",
+      "width": 400,
+      "x": 10,
+      "y": 60,
+      "zOrder": 321,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "layer": "HUD",
+      "name": "FailsText",
+      "persistentUuid": "a0db699a-fe5b-4f2f-8ece-f39a1c561c30",
+      "width": 400,
+      "x": 10,
+      "y": 110,
+      "zOrder": 322,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 50,
+      "height": 50,
+      "layer": "",
+      "name": "Trash_Bag",
+      "persistentUuid": "0daf1b2f-a227-41c5-aa1a-100a42ac22c2",
+      "width": 50,
+      "x": 120,
+      "y": -307,
+      "z": 160,
+      "zOrder": 323,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 50,
+      "height": 50,
+      "layer": "",
+      "name": "Trash_Bag",
+      "persistentUuid": "bbf7c575-d387-4eb4-acf8-df7178081eb7",
+      "width": 50,
+      "x": 400,
+      "y": 151,
+      "z": 160,
+      "zOrder": 323,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 50,
+      "height": 50,
+      "layer": "",
+      "name": "Trash_Bag",
+      "persistentUuid": "8c8d858a-6a43-487e-871d-a4399e752cd9",
+      "width": 50,
+      "x": 1044,
+      "y": -92,
+      "z": 160,
+      "zOrder": 323,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 50,
+      "height": 50,
+      "layer": "",
+      "name": "Trash_Bag",
+      "persistentUuid": "b6821c19-021e-4640-8bb7-8b19af2f1fe1",
+      "width": 50,
+      "x": 844,
+      "y": 446,
+      "z": 160,
+      "zOrder": 323,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 50,
+      "height": 50,
+      "layer": "",
+      "name": "Trash_Bag",
+      "persistentUuid": "8aaf6f81-f2f5-454a-97e8-c9f375a61264",
+      "width": 50,
+      "x": 292,
+      "y": 645,
+      "z": 160,
+      "zOrder": 323,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 10,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Bottle",
+      "persistentUuid": "a5361415-963f-455e-a5ed-e7beae9268f5",
+      "rotationX": -90,
+      "width": 10,
+      "x": 766,
+      "y": 116,
+      "z": 160,
+      "zOrder": 324,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 10,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Bottle",
+      "persistentUuid": "7d70e230-ee46-4274-ae17-334ae4bb1e5a",
+      "rotationX": -90,
+      "width": 10,
+      "x": 514,
+      "y": 458,
+      "z": 160,
+      "zOrder": 324,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 10,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Bottle",
+      "persistentUuid": "4fd224c6-d0c5-4fb4-b34c-2a7f488f2e97",
+      "rotationX": -90,
+      "width": 10,
+      "x": 238,
+      "y": -150,
+      "z": 160,
+      "zOrder": 324,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 30,
+      "height": 30,
+      "layer": "",
+      "name": "Cardbox",
+      "persistentUuid": "8108c552-cab8-4f1a-945c-0eae337057a3",
+      "rotationX": -90,
+      "width": 60,
+      "x": 659,
+      "y": 300,
+      "z": 160,
+      "zOrder": 325,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 30,
+      "height": 30,
+      "layer": "",
+      "name": "Cardbox",
+      "persistentUuid": "14f38a7e-aa2d-4a58-b71e-558361db1cb9",
+      "rotationX": -90,
+      "width": 60,
+      "x": 1041,
+      "y": 821,
+      "z": 160,
+      "zOrder": 325,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -657,10 +580,38 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Box",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17
+        },
+        {
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -1878,7 +1829,7 @@
               },
               "parameters": [
                 "",
-                "\"Street\"",
+                "\"Start\"",
                 ""
               ]
             }
@@ -1956,7 +1907,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "TrashBag",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2006,7 +1956,7 @@
                   "parameters": [
                     "Trash_Bag",
                     "=",
-                    "RandomInRange(0,780)"
+                    "RandomInRange(260, 1000)"
                   ]
                 },
                 {
@@ -2016,7 +1966,7 @@
                   "parameters": [
                     "Trash_Bag",
                     "=",
-                    "RandomInRange(-817, 1474)"
+                    "RandomInRange(9, 810)"
                   ]
                 }
               ],
@@ -2271,7 +2221,7 @@
                   "parameters": [
                     "Trash_Bag",
                     "=",
-                    "RandomInRange(0,780)"
+                    "RandomInRange(260, 1000)"
                   ]
                 },
                 {
@@ -2281,7 +2231,7 @@
                   "parameters": [
                     "Trash_Bag",
                     "=",
-                    "RandomInRange(-817, 1474)"
+                    "RandomInRange(9, 810)"
                   ]
                 }
               ],
@@ -2499,7 +2449,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Bottle",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2549,7 +2498,7 @@
                   "parameters": [
                     "Bottle",
                     "=",
-                    "RandomInRange(0,780)"
+                    "RandomInRange(260, 1000)"
                   ]
                 },
                 {
@@ -2559,7 +2508,7 @@
                   "parameters": [
                     "Bottle",
                     "=",
-                    "RandomInRange(-817, 1474)"
+                    "RandomInRange(9, 810)"
                   ]
                 }
               ],
@@ -2814,7 +2763,7 @@
                   "parameters": [
                     "Bottle",
                     "=",
-                    "RandomInRange(0,780)"
+                    "RandomInRange(260, 1000)"
                   ]
                 },
                 {
@@ -2824,7 +2773,7 @@
                   "parameters": [
                     "Bottle",
                     "=",
-                    "RandomInRange(-817, 1474)"
+                    "RandomInRange(9, 810)"
                   ]
                 }
               ],
@@ -3042,7 +2991,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Cardbox",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3092,7 +3040,7 @@
                   "parameters": [
                     "Cardbox",
                     "=",
-                    "RandomInRange(0,780)"
+                    "RandomInRange(260, 1000)"
                   ]
                 },
                 {
@@ -3102,7 +3050,7 @@
                   "parameters": [
                     "Cardbox",
                     "=",
-                    "RandomInRange(-817, 1474)"
+                    "RandomInRange(9, 810)"
                   ]
                 }
               ],
@@ -3357,7 +3305,7 @@
                   "parameters": [
                     "Cardbox",
                     "=",
-                    "RandomInRange(0,780)"
+                    "RandomInRange(260, 1000)"
                   ]
                 },
                 {
@@ -3367,7 +3315,7 @@
                   "parameters": [
                     "Cardbox",
                     "=",
-                    "RandomInRange(-817, 1474)"
+                    "RandomInRange(9, 810)"
                   ]
                 }
               ],
@@ -3611,6 +3559,39 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "HUD",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
