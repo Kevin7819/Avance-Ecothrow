@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.067643839732842,
+    "zoomFactor": 0.42183322780334637,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2319,6 +2319,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Escena",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3150,7 +3151,7 @@
               },
               "parameters": [
                 "",
-                "\"Street\"",
+                "\"Start\"",
                 ""
               ]
             }

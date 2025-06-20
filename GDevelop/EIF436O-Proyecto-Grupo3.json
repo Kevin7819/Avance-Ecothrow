@@ -1147,7 +1147,6 @@
           "masks": 17
         },
         {
-          "isFolded": true,
           "name": "PhysicsCharacter3D",
           "type": "Physics3D::PhysicsCharacter3D",
           "physics3D": "Physics3D",
