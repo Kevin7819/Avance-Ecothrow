@@ -1,0 +1,1464 @@
+{
+  "firstLayout": "Start",
+  "gdVersion": {
+    "build": 231,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "default",
+    "packageName": "com.graficos.ecothrow",
+    "pixelsRounding": false,
+    "projectUuid": "7ded1779-b9c1-41eb-b78c-9f155b2df31a",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "EIF436O-Proyecto-Grupo3",
+    "description": "",
+    "author": "",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/Piso_Front.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Piso_Front",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Piso_Front2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Piso_Front2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pared_Front.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Pared_Front.png\"}",
+        "name": "Pared_Front",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pared_Back.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Pared_Back",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pared_Left.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Pared_Left",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pared_Right.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Pared_Right",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pared_Top.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Pared_Top",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pared_Bottom.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Pared_Bottom",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Isometric Voxel Grassy Dirt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Isometric Voxel Grassy Dirt.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric Pack/Voxel tiles/Dirt/e1f68888c4c3ae12406f09b98474cd47313b36d9ac2ab0b0c045376423c8c8a7_Isometric Voxel Grassy Dirt.png",
+          "name": "Isometric Voxel Grassy Dirt.png"
+        }
+      },
+      {
+        "file": "assets/Isometric Platformer Exclamation Box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Isometric Platformer Exclamation Box.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric Pack/Platformer tiles/Crate/06294d99fc278002f5503c67075c490fcb902da71657a3f297577c7b23b04d1b_Isometric Platformer Exclamation Box.png",
+          "name": "Isometric Platformer Exclamation Box.png"
+        }
+      },
+      {
+        "file": "assets/New3DBox_Front.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New3DBox_Front",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "frontal.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "frontal.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "piso lados.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "piso lados.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "piso lados2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "piso lados2.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tierra.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "tierra.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "piso lados3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "piso lados3.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "piso lados4.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "piso lados4.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "piso lados5.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "piso lados5.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "madera.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "madera.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/madera.webp2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "madera.webp2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "with all the moves2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "with all the moves2.glb",
+        "userAdded": false
+      },
+      {
+        "file": "gato (2).glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "gato (2).glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Skeleton Warrior.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Skeleton Warrior.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Skeletons/Character/de10d3dcecb52aea51a6cea62c2e5caa518359a31d035e6e0b28bbcbc65f7bd1_Skeleton Warrior.glb",
+          "name": "Skeleton Warrior.glb"
+        }
+      },
+      {
+        "file": "assets/Blue Box_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Box_No Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/PX UI Basic/810a7e45389c46b729c0d9e0b4d8349d38a2cbafeec2b91b7812160c642ef666_Blue Box_No Shadow.png",
+          "name": "Blue Box_No Shadow.png"
+        }
+      },
+      {
+        "file": "assets/Blue Box_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Box_Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/PX UI Basic/8c567a937aee0e307a4f89290ba2083ddde3ec839e207a9e706e0a09ab160b3d_Blue Box_Shadow.png",
+          "name": "Blue Box_Shadow.png"
+        }
+      },
+      {
+        "file": "00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "00.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Black Decorated Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Decorated Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/8a9f8afaf0442f49cd7d5318d31ac6117137ec91d9086e9bdd59b052a4fa71f0_Black Decorated Button_Hovered.png",
+          "name": "Black Decorated Button_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Black Decorated Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Decorated Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6652cc81d33cb5485e0bf19ed2a92aac70b5c9fb45837762d094c8dbecc30d4d_Black Decorated Button_Idle.png",
+          "name": "Black Decorated Button_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Black Decorated Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Decorated Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/61997299d1d329fff69772b1111ba7c07b6c0a96a9a17090d2bf2cc31ff08e00_Black Decorated Button_Pressed.png",
+          "name": "Black Decorated Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/ArchitectsDaughter.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "ArchitectsDaughter.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+          "name": "ArchitectsDaughter.ttf"
+        }
+      },
+      {
+        "file": "WoodTiles2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WoodTiles2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "woodTexture.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "woodTexture.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Grass Texture 1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grass Texture 1.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "frontal2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "frontal2.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "KevinVenegasBermúdez.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "KevinVenegasBermúdez.glb",
+        "userAdded": false
+      },
+      {
+        "file": "KevinVenegasBermúdez2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "KevinVenegasBermúdez2.glb",
+        "userAdded": false
+      },
+      {
+        "file": "KevinVenegasBermúdez3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "KevinVenegasBermúdez3.glb",
+        "userAdded": false
+      },
+      {
+        "file": "KevinVenegasBermúdez4.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "KevinVenegasBermúdez4.glb",
+        "userAdded": false
+      },
+      {
+        "file": "KevinVenegasBermúdez5.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "KevinVenegasBermúdez5.glb",
+        "userAdded": false
+      },
+      {
+        "file": "KevinVenegasBermúdez6.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "KevinVenegasBermúdez6.glb",
+        "userAdded": false
+      },
+      {
+        "file": "KevinVenegasBermúdez7.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "KevinVenegasBermúdez7.glb",
+        "userAdded": false
+      },
+      {
+        "file": "untitled.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "untitled.glb",
+        "userAdded": false
+      },
+      {
+        "file": "untitled2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "untitled2.glb",
+        "userAdded": false
+      },
+      {
+        "file": "untitled3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "untitled3.glb",
+        "userAdded": false
+      },
+      {
+        "file": "untitled4.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "untitled4.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Goldman-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "21bcfe4bb1045b82ecde51b2c493fc80da9496fb2f12e2e874a799d97505b795_Goldman-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/21bcfe4bb1045b82ecde51b2c493fc80da9496fb2f12e2e874a799d97505b795_Goldman-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "animaciones.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "animaciones.glb",
+        "userAdded": false
+      },
+      {
+        "file": "animaciones2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "animaciones2.glb",
+        "userAdded": false
+      },
+      {
+        "file": "untitled5.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "untitled5.glb",
+        "userAdded": false
+      },
+      {
+        "file": "untitled6.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "untitled6.glb",
+        "userAdded": false
+      },
+      {
+        "file": "asfalt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asfalt.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "SF Street.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "SF Street.glb",
+        "userAdded": false
+      },
+      {
+        "file": "black_trash_bag.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "black_trash_bag.glb",
+        "userAdded": false
+      },
+      {
+        "file": "lampara.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "lampara.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Trash Can.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Trash Can.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Recycle bin.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Recycle bin.glb",
+        "userAdded": false
+      },
+      {
+        "file": "trash_can.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "trash_can.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Trash Can yellow.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Trash Can yellow.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Trash Can green.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Trash Can green.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Trash Can brown.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Trash Can brown.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Trash Can black.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Trash Can black.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Trash Can grey.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Trash Can grey.glb",
+        "userAdded": false
+      },
+      {
+        "file": "../../../../../../Downloads/Trash Can.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\..\\..\\Downloads\\Trash Can.glb",
+        "userAdded": false
+      },
+      {
+        "file": "trash_recycle_yellow.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "trash_recycle_yellow.glb",
+        "userAdded": false
+      },
+      {
+        "file": "trash_recycle_green.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "trash_recycle_green.glb",
+        "userAdded": false
+      },
+      {
+        "file": "trash_recycle_brown.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "trash_recycle_brown.glb",
+        "userAdded": false
+      },
+      {
+        "file": "trash_recycle_black.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "trash_recycle_black.glb",
+        "userAdded": false
+      },
+      {
+        "file": "trash_recycle_grey.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "trash_recycle_grey.glb",
+        "userAdded": false
+      },
+      {
+        "file": "trash_recycle_blue.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "trash_recycle_blue.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/CaesarDressing-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "20250616_0113_Ecothrow_ Aventura Reciclaje_simple_compose_01jxvs7z8ferdsjabajbc5dg4n.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "20250616_0113_Ecothrow_ Aventura Reciclaje_simple_compose_01jxvs7z8ferdsjabajbc5dg4n.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "20250616_0123_Ecothrow_ Urban Eco-Adventure_simple_compose_01jxvsvgkhe15sdtka058z71kq.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "20250616_0123_Ecothrow_ Urban Eco-Adventure_simple_compose_01jxvsvgkhe15sdtka058z71kq.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "20250616_0123_Ecothrow_ Urban Eco-Adventure_simple_compose_01jxvsvgkhe15sdtka058z71kq2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "20250616_0123_Ecothrow_ Urban Eco-Adventure_simple_compose_01jxvsvgkhe15sdtka058z71kq2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Medieval Button Beige_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Beige_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6fad8e544ef611861ec9222dd95874cd2b011f1a98a4593372a25801f3236c1c_Medieval Button Beige_Hovered.png",
+          "name": "Medieval Button Beige_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Medieval Button Beige_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Beige_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7366f06f5fb6f903e0745608c31da98b3d781c9f29af9016636619b32685ec97_Medieval Button Beige_Idle.png",
+          "name": "Medieval Button Beige_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Medieval Button Beige_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Beige_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/8ca64832a117b91bf3128f96ab66c83c7126c3ffb82909ac01ab1d687137997a_Medieval Button Beige_Pressed.png",
+          "name": "Medieval Button Beige_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CaesarDressing-Regular2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CaesarDressing-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+          "name": "CaesarDressing-Regular.ttf"
+        }
+      },
+      {
+        "file": "20250616_0131_Eco-Apocalypse Game Over_simple_compose_01jxvt8xbgfts95ewhmqcwy56v.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "20250616_0131_Eco-Apocalypse Game Over_simple_compose_01jxvt8xbgfts95ewhmqcwy56v.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Start.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Start.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Lose.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lose.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Grass Platform.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Grass Platform.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Path.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Path.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Walk in the Woods.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Walk in the Woods.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Road tile.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Road tile.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Dead Tree.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Dead Tree.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Trash Bag.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Trash Bag.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Rock.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Rock.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Large Building (1).glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Large Building (1).glb",
+        "userAdded": false
+      },
+      {
+        "file": "Skyscraper.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Skyscraper.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Small Building.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Small Building.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Ruin.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Ruin.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Rocks.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Rocks.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Big Building.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Big Building.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Skyscraper (1).glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Skyscraper (1).glb",
+        "userAdded": false
+      },
+      {
+        "file": "Damaged Grave.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Damaged Grave.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Streetlight.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Streetlight.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Brick wall.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Brick wall.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Floor Tile.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Floor Tile.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Broken Car.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Broken Car.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Broken Car 2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Broken Car 2.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Broken Car 3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Broken Car 3.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Broken Car 4.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Broken Car 4.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Traffic light.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Traffic light.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Traffic Barrier.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Traffic Barrier.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Stop Sign Shield.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Stop Sign Shield.glb",
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "Camara",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "isFolded": true,
+          "name": "FirstPersonMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::FirstPersonMultitouchMapper",
+          "Object3D": "Object3D",
+          "ControllerIdentifier": 1,
+          "CameraStick": "Secondary",
+          "HorizontalRotationSpeedMax": 180,
+          "HorizontalRotationAcceleration": 360,
+          "HorizontalRotationDeceleration": 720,
+          "VerticalRotationSpeedMax": 120,
+          "VerticalRotationAcceleration": 240,
+          "VerticalRotationDeceleration": 480,
+          "VerticalAngleMin": -90,
+          "VerticalAngleMax": 90,
+          "OffsetZ": 0,
+          "CurrentRotationSpeedZ": 0,
+          "CurrentRotationSpeedY": 0
+        },
+        {
+          "isFolded": true,
+          "name": "FirstPersonPointerMapper",
+          "type": "MousePointerLock::FirstPersonPointerMapper",
+          "Object3D": "Object3D",
+          "HorizontalSpeed": 200,
+          "VerticalSpeed": 100,
+          "VerticalAngleMin": -90,
+          "VerticalAngleMax": 90,
+          "OffsetZ": 0,
+          "ShouldLock": true
+        },
+        {
+          "isFolded": true,
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Box",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17
+        },
+        {
+          "isFolded": true,
+          "name": "PhysicsCharacter3D",
+          "type": "Physics3D::PhysicsCharacter3D",
+          "physics3D": "Physics3D",
+          "jumpHeight": 200,
+          "jumpSustainTime": 0.2,
+          "gravity": 1000,
+          "fallingSpeedMax": 700,
+          "forwardAcceleration": 1200,
+          "forwardDeceleration": 1200,
+          "forwardSpeedMax": 600,
+          "sidewaysAcceleration": 800,
+          "sidewaysDeceleration": 800,
+          "sidewaysSpeedMax": 400,
+          "slopeMaxAngle": 50,
+          "stairHeightMax": 20,
+          "shouldBindObjectAndForwardAngle": true,
+          "canBePushed": true
+        },
+        {
+          "isFolded": true,
+          "name": "Shooter3DKeyboardMapper",
+          "type": "PhysicsCharacter3DKeyMapper::Shooter3DKeyboardMapper",
+          "PhysicsCharacter3D": "PhysicsCharacter3D",
+          "Jump": "Space",
+          "Up": "w",
+          "Left": "a",
+          "Down": "s",
+          "Right": "d"
+        }
+      ],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": false,
+        "backFaceVisible": false,
+        "leftFaceVisible": false,
+        "rightFaceVisible": false,
+        "topFaceVisible": false,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic",
+        "tint": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "trash_Can_black",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Box",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "trash_recycle_black.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Bolsa_basura",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Sphere",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 20,
+          "friction": 3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "black_trash_bag.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Lampara",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Box",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "lampara.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "trash_Can_blue",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Box",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "trash_recycle_blue.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "trash_Can_grey",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Box",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "trash_recycle_grey.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Trash_Bag",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Sphere",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17
+        }
+      ],
+      "content": {
+        "centerLocation": "ObjectCenter",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Trash Bag.glb",
+        "originLocation": "ObjectCenter",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Camara"
+      },
+      {
+        "objectName": "Lampara"
+      },
+      {
+        "objectName": "Bolsa_basura"
+      },
+      {
+        "objectName": "trash_Can_black"
+      },
+      {
+        "objectName": "trash_Can_blue"
+      },
+      {
+        "objectName": "trash_Can_grey"
+      },
+      {
+        "objectName": "Trash_Bag"
+      }
+    ]
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/start"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/street"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/park"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/city"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/street2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/lose"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/behaviorremapper"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/thirdpersoncamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/gamepads"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/physicscharacter3dkeymapper"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/physicscharacter3danimator"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/mousepointerlock"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
+    }
+  ],
+  "externalLayouts": []
+}
